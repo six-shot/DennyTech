@@ -63,7 +63,7 @@ const FirstScene = () => {
 
   return (
     <section
-      className="absolute left-0 top-0 flex h-screen w-screen flex-col items-center justify-center gap-4"
+      className="font-poppins absolute left-0 top-0 flex h-screen w-screen flex-col items-center justify-center gap-4"
       ref={container}
     >
       <div className="flex w-4/5 items-center">
