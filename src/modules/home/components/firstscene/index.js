@@ -69,7 +69,7 @@ const FirstScene = () => {
       <div className="flex w-4/5 items-center">
         <div className="flex flex-[70%] justify-end gap-2">
           <div
-            className="rounded-full border-2 border-orange-500 p-4 text-orange-500"
+            className="rounded-full border-2 border-[#FE4C1A] p-4 text-[#FE4C1A]"
             id="arrow-1"
           >
             <svg
