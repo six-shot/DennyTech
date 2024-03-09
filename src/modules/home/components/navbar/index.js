@@ -2,12 +2,19 @@ import React from "react";
 import { IconContext } from "react-icons";
 import { CgMenuRight } from "react-icons/cg";
 import { PiTooth } from "react-icons/pi";
-
+import { motion } from "framer-motion";
+import { navVariants } from "../../data/motion";
 export default function Navbar() {
   return (
     <div className="bg-white w-full font-poppins">
       <div className="max-w-[1440px] mx-auto">
-        <div className="flex justify-center items-center w-full  h-[10vh] px-[6%]  ">
+      <motion.div
+       
+        variants={navVariants}
+        initial='hidden'
+        whileInView='show'
+         className="flex justify-center items-center w-full  h-[10vh] px-[6%]  "
+      >
           <div className="flex justify-between items-center w-full">
             <div className="flex items-center">
               <div className="w-[70px] h-[30px] flex items-center justify-center border border-black rounded-[14px]">
@@ -34,7 +41,7 @@ export default function Navbar() {
               </button>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
