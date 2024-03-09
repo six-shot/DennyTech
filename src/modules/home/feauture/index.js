@@ -17,7 +17,7 @@ export default function Hero() {
               <div className="col-span-8">
                 <motion.h1
                   variants={fadeIn("left", "tween", 0.2, 1)}
-                  className="text-[80px]  tracking-[2px]"
+                  className="sm:text-[80px] text-[40px]  tracking-[2px]"
                 >
                   REVOLUTIONIZING
                 </motion.h1>
