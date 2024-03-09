@@ -12,8 +12,8 @@ export default function Hero() {
     >
       <div className="bg-white w-full font-poppins">
         <div className="max-w-[1440px] mx-auto">
-          <div className=" px-[10%]  h-[90vh] flex flex-col  justify-center ">
-            <div className="w-full grid grid-cols-12">
+          <div className=" px-[10%]  sm:h-[90vh] sm:py-0 py-[3%] flex flex-col  justify-center ">
+            <div className="w-full grid sm:grid-cols-12">
               <div className="col-span-8">
                 <motion.h1
                   variants={slideIn("right", "tween", 0.2, 1)}
@@ -23,18 +23,18 @@ export default function Hero() {
                 </motion.h1>
               </div>
             </div>
-            <div className="w-full grid grid-cols-12 ">
+            <div className="w-full grid sm:grid-cols-12 ">
               <div className="col-span-4 w-full "></div>
               <div className="col-span-8 w-full ">
                 <motion.h1
                   variants={fadeIn("right", "tween", 0.2, 1)}
-                  className="sm:text-[80px] text-[30px]  tracking-[2px]"
+                  className="sm:text-[80px] text-[30px]  tracking-[2px] sm:text-left text-right"
                 >
                   DENTAL CARE
                 </motion.h1>
               </div>
             </div>
-            <div className="w-full grid grid-cols-12">
+            <div className="w-full grid sm:grid-cols-12">
               <div className="col-span-8">
                 <motion.h1
                   variants={fadeIn("left", "tween", 0.2, 1)}
