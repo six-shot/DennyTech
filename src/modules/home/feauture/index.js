@@ -16,8 +16,8 @@ export default function Hero() {
             <div className="w-full grid grid-cols-12">
               <div className="col-span-8">
                 <motion.h1
-                  variants={fadeIn("left", "tween", 0.2, 1)}
-                  className="sm:text-[80px] text-[40px]  tracking-[2px]"
+                  variants={slideIn("right", "tween", 0.2, 1)}
+                  className="sm:text-[80px] text-[30px]  tracking-[2px]"
                 >
                   REVOLUTIONIZING
                 </motion.h1>
@@ -26,14 +26,22 @@ export default function Hero() {
             <div className="w-full grid grid-cols-12 ">
               <div className="col-span-4 w-full "></div>
               <div className="col-span-8 w-full ">
-               <motion.h1
-                  variants={fadeIn("right", "tween", 0.2, 1)} className="text-[80px]  tracking-[2px]">DENTAL CARE</motion.h1>
+                <motion.h1
+                  variants={fadeIn("right", "tween", 0.2, 1)}
+                  className="sm:text-[80px] text-[30px]  tracking-[2px]"
+                >
+                  DENTAL CARE
+                </motion.h1>
               </div>
             </div>
             <div className="w-full grid grid-cols-12">
               <div className="col-span-8">
-                 <motion.h1
-                  variants={fadeIn("left", "tween", 0.2, 1)} className="text-[80px]  tracking-[2px]">WITH TECHNLOGY</motion.h1>
+                <motion.h1
+                  variants={fadeIn("left", "tween", 0.2, 1)}
+                  className="sm:text-[80px] text-[30px]  tracking-[2px]"
+                >
+                  WITH TECHOLOGY
+                </motion.h1>
               </div>
             </div>
             <div className="flex justify-between items-center mt-[1%]">
