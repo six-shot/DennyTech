@@ -18,7 +18,7 @@ export default function Hero() {
             <div className="w-full grid sm:grid-cols-12 space-x-5 items-center">
               <div className="col-span-8">
                 <motion.h1
-                  variants={slideIn("right", "tween", 0.2, 1)}
+                  variants={fadeIn("right", "tween", 0.2, 1)}
                   className="sm:text-[80px] text-[30px]  tracking-[2px]"
                 >
                   REVOLUTIONIZING
