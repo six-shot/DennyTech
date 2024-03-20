@@ -5,7 +5,7 @@ import FirstScene from './modules/home/components/firstscene';
 function App() {
   return (
     <div>
-      <FirstScene/>
+      <Routess/>
 
     </div>
   );
